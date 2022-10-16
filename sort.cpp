@@ -1,5 +1,6 @@
 // add sort a (LLL) of integers
-bool sort(int input, node * head) 
+template<class T>
+bool sort(T input, node * head) 
 {
 	if (!head) 
 	{
